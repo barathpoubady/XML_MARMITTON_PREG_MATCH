@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+     <title>SITE RECUPE INFO MARMITTON</title>
+     <meta name="keywords" lang="fr" content="xml,xsl,barath,poubady,recette,rapide" />
+     <meta name="description" content="Recherchez aleatoirement ce que vous allez mangez ce soir ou choisissez une recette" />
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <meta http-equiv="Content-Language" content="fr" />
+     <meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+<script src="http://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+<style type="text/css">
+	
+	#fondChargement{
+			background: none repeat scroll 0 0 #000000;
+			height: 100%;
+			opacity: 0.52;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			display:none;
+		
+	}
+	
+	#chargement{
+			background:none;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			display:none;
+		
+	}
+	
+	#chargement img{
+			display: block;
+			margin: 20% auto;
+			opacity: 1;
+			text-align: center;
+			width: 50px;
+			z-index: 10;
+		
+	}
+	
+	form{
+		
+		display: block;
+    margin-left: 20px;
+    margin-top: 36px;
+    position: relative;
+		
+	}
+	
+	#bt{
+		
+		background:#22c6f5; 
+		border:0px; 
+		cursor:pointer;
+		width:300px;
+		height:30px;
+		
+	}
+	
+	#div1{
+		overflow:hidden;
+		 border-bottom: 5px dotted #333333;
+     border-left: 5px dotted #333333;
+     border-right: 5px dotted #333333;
+		 height:3500px;
+	}
+
+	iframe{
+		border:none;
+		height:3500px;
+		
+	}
+
+</style>
+
+</head>
+<body>
+
+<div style="display:block; text-align:center; border-bottom:#09F dashed; font-family:'Courier New', Courier, monospace;">
+ <h1>XML-XSL-Fast&amp;Easy </h1><span style="font-style:italic;">Recette</span><span style="font-size:15px;"> by Barath</span>
+</div>
+
+<div style="display:block; background:#333333; height:auto; color:#FFF; font-family:'Lucida Console',Geneva,sans-serif;">
+	<h2 style="margin-left:10px; margin-left: 14px; position: relative; top: 32px;">Recherchez aleatoirement ce que vous allez mangez ce soir ou choisissez une recette</h2>
+<form action="recupeInfos.php" id="searchForm">
+<p>
+<input id="bt" type="submit" value="Recherche aleatoire" />
+</p>
+<p><br/>OU<br/></p>
+<!--  <input type="text" name="lien" placeholder="URL...">--> 
+ <p><select id="Toprecette">
+  <option value="http://www.marmiton.org/recettes/recette_soupe-a-l-oignon_10891.aspx">Soupe à l'oignon</option>
+  <option value="http://www.marmiton.org/recettes/recette_soupe-a-la-banane_15158.aspx">Soupe à la banane</option>
+  <option value="http://www.marmiton.org/recettes/recette_soupe-d-endives_21303.aspx">Soupe d'endives</option>
+  <option value="http://www.marmiton.org/recettes/recette_soupe-de-framboises_195439.aspx">Soupe de framboises</option>
+  <option value="http://www.marmiton.org/recettes/recette_soupe-froide-de-radis-roses_38509.aspx">Soupe froide de radis roses</option>
+  <option value="http://www.marmiton.org/recettes/recette_soupe-veloutee-a-la-carotte_33446.aspx">Soupe veloutée à la carotte</option>
+  <option value="http://www.marmiton.org/recettes/recette_soupe-a-la-farine-rotie-bale-suisse_10971.aspx">Soupe à la farine rôtie (Bâle, Suisse)</option>
+  <option value="http://www.marmiton.org/recettes/recette_creme-d-avocat-sucre-sale_195270.aspx">Crème d'avocat sucré-salé au jus de pommes</option>
+  <option value="http://www.marmiton.org/recettes/recette_cuilleres-aperitives-au-saumon-fume_194278.aspx">Cuillères apéritives au saumon fumé</option>
+  <option value="http://www.marmiton.org/recettes/recette_punch-divin_169618.aspx">Punch divin</option>
+  <option value="http://www.marmiton.org/recettes/recette_mayonaise-au-mixer-plongeant_217811.aspx">Mayonaise au mixeur plongeant</option>
+  <option value="http://www.marmiton.org/recettes/recette_aumoniere-de-chevre-et-jambon-italien_50329.aspx">Aumonière de chèvre et jambon italien</option>
+  <option value="http://www.marmiton.org/recettes/recette_aiguillettes-de-canard-menthe-et-citron_30970.aspx">Aiguillettes de canard menthe et citron</option>
+  <option value="http://www.marmiton.org/recettes/recette_abricots-au-sirop-sans-alcool_24679.aspx">Abricots au sirop sans alcool</option>
+  <option value="http://www.marmiton.org/recettes/recette_salade-melon-jambon_212551.aspx">Salade melon-jambon</option>
+  <option value="http://www.marmiton.org/recettes/recette_maki-california-japon_57156.aspx">Maki california (Japon)</option>
+  <option value="Paupiettes de veau au génépi">Paupiettes de veau au génépi</option>
+  <option value="http://www.marmiton.org/recettes/recette_paella-valenciana-mixte_70475.aspx">Paëlla Valenciana mixte</option>
+  <option value="http://www.marmiton.org/recettes/recette_boeuf-sate-sur-plaque-chauffante_81093.aspx">Boeuf saté sur plaque chauffante</option>
+  <option value="http://www.marmiton.org/recettes/recette_dinde-aux-truffes-et-aux-asperges_25032.aspx">Dinde aux truffes et aux asperges</option>
+</select>
+</p>
+</form>
+<br/>
+</div>
+
+
+
+<!-- the result of the search will be rendered inside this div -->
+<div id="content">
+	<div id="div1"></div>
+	<div id="result"></div>
+</div>
+
+<div id="chargement">
+	<img src="gif_chargement.gif" alt="chargement"/>
+</div>
+
+<div id="fondChargement">
+
+</div>
+
+<div>
+
+Powered by Barath
+
+</div>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+	
+	demandeAJAX("http://www.marmiton.org/recettes/recette_soupe-a-l-oignon_10891.aspx");
+	
+});
+
+function affciheXML(urlXML){
+		
+	$("#div1").html('<iframe src="'+urlXML+'" width="100%" height="469"><p>Your browser does not support iframes.</p></iframe>');
+	
+}
+
+$("select").click(function(){
+	
+	console.log($( "#Toprecette option:selected" ).val());
+	$RecetteSelection = $( "#Toprecette option:selected" ).val();
+	demandeAJAX($RecetteSelection);
+	
+});
+
+function demandeAJAX($RecetteSelection){
+	
+	// Send the data using post
+	var posting = $.post( "recupeInfos.php", {selectRecette: $RecetteSelection, demandeRecharge: "NON" } );
+	// Put the results in a div
+	posting.done(function( data ) {
+	
+		$( "#result" ).empty().append( data );
+	  
+		affciheXML(data);
+	
+	});
+	
+}
+
+// Attach a submit handler to the form
+$( "#searchForm" ).submit(function( event ) {
+	
+	$('#chargement').css({
+		"display":"block",
+		
+	});
+	
+	$('#fondChargement').css({
+		"display":"block",
+		
+	});
+	
+	// Stop form from submitting normally
+	event.preventDefault();
+	// Get some values from elements on the page:
+	var $form = $( this ),
+	//valeurLien = $form.find( "input[name='lien']" ).val(),
+	url_php = $form.attr( "action" );
+	
+	// Send the data using post
+	var posting = $.post( url_php, { demandeRecharge: "OK", selectRecette: 0} );
+	// Put the results in a div
+	posting.done(function( data ) {
+	
+		$( "#result" ).empty().append( data );
+	
+		affciheXML(data);
+	
+	});
+	
+	 posting.always(function() {
+		$('#chargement').css({
+		"display":"none",
+		
+		});
+		$('#fondChargement').css({
+		"display":"none",
+		
+	});
+	 });
+	
+});
+</script>
+</body>
+</html>

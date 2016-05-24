@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XSL.xsl"?>
+<copieMarmitton>
+  <Recette>
+    <titre>                            Soupe à l'oignon                    </titre>
+    <tempPrepartion>25 </tempPrepartion>
+    <tempCuisson>20</tempCuisson>
+    <tableIngredients>
+      <ingredients>                    Ingrédients (pour 4 personnes) :                    </ingredients>
+      <ingredients>4 gros oignons</ingredients>
+      <ingredients>50 g de beurre</ingredients>
+      <ingredients>1 cuillère à soupe d'huile</ingredients>
+      <ingredients>1 cuillère à soupe de farine</ingredients>
+      <ingredients>25 cl de vin blanc</ingredients>
+      <ingredients>1 l d'eau</ingredients>
+      <ingredients>sel, poivre, </ingredients>
+      <ingredients>6 tranches de pains de mie</ingredients>
+      <ingredients>100 g de comté râpé                                    </ingredients>
+    </tableIngredients>
+    <tablePreparation>
+      <preparation>                                        Préparation de la recette :</preparation>
+      <preparation>                    Pelez et émincez les oignons, faites-les revenir dans le mélange beurre, huile.</preparation>
+      <preparation></preparation>
+      <preparation>Saupoudrez le mélange de farine, mouillez d'eau chaude et de vin blanc et assaisonnez.</preparation>
+      <preparation></preparation>
+      <preparation>Couvrez et laissez bouillonner doucement pendant 20 minutes.</preparation>
+      <preparation></preparation>
+      <preparation>Faites grillez le pain, disposez chaque tranche dans le fond de 4 petits bols individuels supportant le passage au four.</preparation>
+      <preparation></preparation>
+      <preparation>Saupoudrez d'un peu de fromage râpé. Versez la soupe par-dessus.</preparation>
+      <preparation></preparation>
+      <preparation>Saupoudrez à nouveau de fromage et faites gratiner.                    </preparation>
+    </tablePreparation>
+  </Recette>
+</copieMarmitton>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XSL.xsl"?>
+<copieMarmitton>
+  <Recette>
+    <titre>                            Soupe de framboises                    </titre>
+    <image>http://images.marmitoncdn.org/recipephotos/multiphoto/fb/fbe3d4f0-c917-4459-9eea-9ea32b5f0596_normal.jpg</image>
+    <tempPrepartion>30 </tempPrepartion>
+    <tempCuisson>0</tempCuisson>
+    <tableIngredients>
+      <ingredients>                    Ingrédients (pour 8 verrines) :                    </ingredients>
+      <ingredients>350 g de framboises surgelées</ingredients>
+      <ingredients>25 cl de jus d'orange</ingredients>
+      <ingredients>1 gousse de vanille</ingredients>
+      <ingredients>2 cuillères à soupe de miel                                    </ingredients>
+    </tableIngredients>
+    <tablePreparation>
+      <preparation>                                        Préparation de la recette :</preparation>
+      <preparation>                    Dans une casserole, verser les framboises, le jus d'orange, la gousse de vanille coupée en deux dans le sens de la longueur et le miel.</preparation>
+      <preparation></preparation>
+      <preparation>Laisser infuser à feu doux pendant 10 min.</preparation>
+      <preparation></preparation>
+      <preparation>Retirer du feu et ôter la gousse de vanille.</preparation>
+      <preparation></preparation>
+      <preparation>Mixer le tout dans un blender et verser dans des verrines.</preparation>
+      <preparation></preparation>
+      <preparation>Placer au réfrigérateur au minimum une heure avant de la déguster.</preparation>
+      <preparation></preparation>
+      <preparation>                    </preparation>
+    </tablePreparation>
+  </Recette>
+</copieMarmitton>

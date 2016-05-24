@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XSL.xsl"?>
+<copieMarmitton>
+  <Recette>
+    <titre>                            Spätzle ou knepfas (Alsace)                    </titre>
+    <image>http://images.marmitoncdn.org/recipephotos/multiphoto/56/5635f60a-052b-4d84-9018-7ff7a7f0799e_normal.jpg</image>
+    <tempPrepartion>15 </tempPrepartion>
+    <tempCuisson>30</tempCuisson>
+    <tableIngredients>
+      <ingredients>                    Ingrédients (pour 6 personnes) :                    </ingredients>
+      <ingredients>500 g de farine</ingredients>
+      <ingredients>1/2 litre de lait</ingredients>
+      <ingredients>6 oeufs</ingredients>
+      <ingredients>sel</ingredients>
+      <ingredients>5 litres d'eau salée pour la cuisson</ingredients>
+      <ingredients>50 g de beurre</ingredients>
+      <ingredients>croûtons de pains                                    </ingredients>
+    </tableIngredients>
+    <tablePreparation>
+      <preparation>                                        Préparation de la recette :</preparation>
+      <preparation>                    Tamiser la farine dans une grande terrine. Creuser une fontaine. Y casser les oeufs. Ajouter le sel. Mélanger avec une partie de la farine (de façon à éviter les grumeaux...).</preparation>
+      <preparation></preparation>
+      <preparation>Mouiller avec le lait et travailler le tout pour obtenir une pâte homogène et peu coulante.</preparation>
+      <preparation></preparation>
+      <preparation>Laisser reposer une heure.</preparation>
+      <preparation></preparation>
+      <preparation>Préparer deux grandes casseroles d'eau salée. Les porter à ébullition et maintenir la première à ébullition.</preparation>
+      <preparation></preparation>
+      <preparation>Verser la pâte dans le 'robot à spätzle' au-dessus de la première casserole.</preparation>
+      <preparation></preparation>
+      <preparation>Retirer les spätzles dès qu'il remontent à la surface et les plonger dans la casserole d'eau chaude, puis les égoutter dans une passoire.</preparation>
+      <preparation></preparation>
+      <preparation>Les mettre dans un plat de service chaud. Faire fondre le beurre, y faire revenir les croutons de pain, puis arroser les spätzles avec le tout.</preparation>
+      <preparation></preparation>
+      <preparation>                    </preparation>
+    </tablePreparation>
+  </Recette>
+  <Recette>
+    <titre>                            Palmier carré frais                    </titre>
+    <image>http://galinette.webconquerant.fr/template/_gfx/no-image.png</image>
+    <tempPrepartion>10 </tempPrepartion>
+    <tempCuisson>10</tempCuisson>
+    <tableIngredients>
+      <ingredients>                    Ingrédients (pour 4 personnes) :                    </ingredients>
+      <ingredients>2 pâtes feuilletées</ingredients>
+      <ingredients>4 carrés frais</ingredients>
+      <ingredients>10 olives noires</ingredients>
+      <ingredients>10 olives vertes                                    </ingredients>
+    </tableIngredients>
+    <tablePreparation>
+      <preparation>                                        Préparation de la recette :</preparation>
+      <preparation>                    Mixer 2 carrés frais avec les olives noires, de même avec les vertes.</preparation>
+      <preparation></preparation>
+      <preparation>Sur la moitié d'une pâte feuilletée, étaler la moitié de la première préparation (noire) et sur l' autre moitié de pâte, étaler la moitié de préparation (verte). Faire de même avec l'autre pâte.</preparation>
+      <preparation></preparation>
+      <preparation>Rouler les pâtes en "escargot" et mettre au congélateur 20 min puis couper des tranches d'1 cm que vous poserez sur votre plaque de pâtisserie.</preparation>
+      <preparation></preparation>
+      <preparation>Mettre au four 10 min à 200°C (thermostat 6-7).</preparation>
+      <preparation></preparation>
+      <preparation>A servir avec un bon vin blanc (tariquet).</preparation>
+      <preparation></preparation>
+      <preparation>                    </preparation>
+    </tablePreparation>
+  </Recette>
+  <Recette>
+    <titre>                            Creusois                    </titre>
+    <image>http://images.marmitoncdn.org/recipephotos/multiphoto/48/483cb809-7d91-42c3-aba6-6245ee2adf13_normal.jpg</image>
+    <tempPrepartion>10 </tempPrepartion>
+    <tempCuisson>30</tempCuisson>
+    <tableIngredients>
+      <ingredients>                    Ingrédients (pour 4 personnes) :                    </ingredients>
+      <ingredients>20 cl de crème fraîche (prendre le pot comme mesure)</ingredients>
+      <ingredients>1 mesure de sucre</ingredients>
+      <ingredients>1 mesure de farine</ingredients>
+      <ingredients>1 mesure de noisettes en poudre</ingredients>
+      <ingredients>2 oeufs </ingredients>
+      <ingredients>1/2 sachet de levure                                    </ingredients>
+    </tableIngredients>
+    <tablePreparation>
+      <preparation>                                        Préparation de la recette :</preparation>
+      <preparation>                    Mettre les 2 oeufs dans 1 jatte, puis les battre environ 1 mn. Ajouter ensuite la crème, le sucre, la farine, la poudre de noisettes et la levure.</preparation>
+      <preparation></preparation>
+      <preparation>Placer l'appareil dans un moule, beurrer et chemiser le moule avec un peu de farine.</preparation>
+      <preparation></preparation>
+      <preparation>Mettre au four thermostat 6 pendant 30 mn environ.</preparation>
+      <preparation></preparation>
+      <preparation>Vous pouvez servir ce délicieux gâteau avec une crème anglaise.</preparation>
+      <preparation></preparation>
+      <preparation>                    </preparation>
+    </tablePreparation>
+  </Recette>
+</copieMarmitton>
